@@ -12,9 +12,11 @@ See [Architecture Design](docs/architecture.md) for the full design document
 
 See [Tenant Isolation Module](terraform/modules/tenant-isolation/README.md) for module details and usage
 
+See [Sample TF Plan](terraform/modules/tenant-isolation/examples/basic/plan_output.txt) for example tenant
+
 ## Module Choice: Tenant Isolation
 
-Network isolation is the foundation—VPC, subnets, security groups, IAM boundaries. Everything else (EKS, RDS) builds on top of this
+Network isolation is the foundation (VPC, subnets, security groups, IAM boundaries. Everything else (EKS, RDS) builds on top of this)
 
 ## Key Decisions
 
